@@ -1,0 +1,1240 @@
+{
+  "session_id": "sess_20241215_abc123def456",
+  "site_id": "site_001",
+  "team_id": 1,
+  "user_id": "user_789xyz",
+  
+  "start_time": "2024-12-15T10:30:00.000Z",
+  "end_time": "2024-12-15T11:15:45.000Z",
+  "last_activity": "2024-12-15T11:15:30.000Z",
+  "duration": 2745,
+  
+  "pages_viewed": 8,
+  "is_bounce": false,
+  "previous_session_id": "sess_20241214_xyz789abc123",
+  "time_since_last_session": 86400,
+  
+  "entry_page": "/home",
+  "exit_page": "/checkout/confirmation",
+  "referrer": "https://www.google.com/search?q=cryptique+analytics",
+  
+  "ip_address": "192.168.1.100",
+  "city": "San Francisco",
+  "region": "California",
+  "country": "United States",
+  "latitude": 37.7749,
+  "longitude": -122.4194,
+  "timezone": "America/Los_Angeles",
+  "org": "AS12345 Example ISP",
+  "postal": "94102",
+  
+  "browser_name": "Chrome",
+  "browser_version": "120.0.6099.109",
+  
+  "device_type": "desktop",
+  "os": "Windows 11",
+  "resolution": "1920x1080",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+  "language": "en-US",
+  
+  "wallet_address": "0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb",
+  "wallet_type": "MetaMask",
+  "chain_name": "Ethereum",
+  "is_web3_user": true,
+  "wallet_connected": true,
+  
+  "utm_source": "google",
+  "utm_medium": "cpc",
+  "utm_campaign": "winter_2024",
+  "utm_term": "web3+analytics",
+  "utm_content": "ad_variant_b",
+  "utm_id": "campaign_12345",
+  
+  "visited_pages": [
+    {
+      "path": "/home",
+      "timestamp": "2024-12-15T10:30:00.000Z",
+      "duration": 180,
+      "isEntry": true,
+      "isExit": false,
+      "mountTime": "2024-12-15T10:30:00.000Z",
+      "unmountTime": "2024-12-15T10:33:00.000Z"
+    },
+    {
+      "path": "/features",
+      "timestamp": "2024-12-15T10:33:05.000Z",
+      "duration": 240,
+      "isEntry": false,
+      "isExit": false,
+      "mountTime": "2024-12-15T10:33:05.000Z",
+      "unmountTime": "2024-12-15T10:37:05.000Z"
+    },
+    {
+      "path": "/pricing",
+      "timestamp": "2024-12-15T10:37:10.000Z",
+      "duration": 320,
+      "isEntry": false,
+      "isExit": false,
+      "mountTime": "2024-12-15T10:37:10.000Z",
+      "unmountTime": "2024-12-15T10:42:30.000Z"
+    },
+    {
+      "path": "/signup",
+      "timestamp": "2024-12-15T10:42:35.000Z",
+      "duration": 450,
+      "isEntry": false,
+      "isExit": false,
+      "mountTime": "2024-12-15T10:42:35.000Z",
+      "unmountTime": "2024-12-15T10:50:05.000Z"
+    },
+    {
+      "path": "/dashboard",
+      "timestamp": "2024-12-15T10:50:10.000Z",
+      "duration": 600,
+      "isEntry": false,
+      "isExit": false,
+      "mountTime": "2024-12-15T10:50:10.000Z",
+      "unmountTime": "2024-12-15T11:00:10.000Z"
+    },
+    {
+      "path": "/dashboard/analytics",
+      "timestamp": "2024-12-15T11:00:15.000Z",
+      "duration": 420,
+      "isEntry": false,
+      "isExit": false,
+      "mountTime": "2024-12-15T11:00:15.000Z",
+      "unmountTime": "2024-12-15T11:07:35.000Z"
+    },
+    {
+      "path": "/dashboard/settings",
+      "timestamp": "2024-12-15T11:07:40.000Z",
+      "duration": 300,
+      "isEntry": false,
+      "isExit": false,
+      "mountTime": "2024-12-15T11:07:40.000Z",
+      "unmountTime": "2024-12-15T11:12:40.000Z"
+    },
+    {
+      "path": "/checkout/confirmation",
+      "timestamp": "2024-12-15T11:12:45.000Z",
+      "duration": 180,
+      "isEntry": false,
+      "isExit": true,
+      "mountTime": "2024-12-15T11:12:45.000Z",
+      "unmountTime": "2024-12-15T11:15:45.000Z"
+    }
+  ],
+  
+  "interactions": {
+    "totalInteractions": 87,
+    "clicks": [
+      {
+        "type": "click",
+        "element": {
+          "tagName": "BUTTON",
+          "id": "cta-signup",
+          "className": "btn btn-primary cta-button",
+          "innerText": "Get Started Free",
+          "href": null,
+          "dataId": "signup-cta-main",
+          "ariaLabel": "Sign up for free account",
+          "role": "button",
+          "tabIndex": 0
+        },
+        "timestamp": "2024-12-15T10:32:15.000Z",
+        "path": "/home",
+        "coordinates": {
+          "x": 960,
+          "y": 540
+        }
+      },
+      {
+        "type": "click",
+        "element": {
+          "tagName": "A",
+          "id": "nav-features",
+          "className": "nav-link",
+          "innerText": "Features",
+          "href": "/features",
+          "dataId": "nav-features-link",
+          "ariaLabel": "View features",
+          "role": "link",
+          "tabIndex": 0
+        },
+        "timestamp": "2024-12-15T10:32:45.000Z",
+        "path": "/home",
+        "coordinates": {
+          "x": 450,
+          "y": 50
+        }
+      },
+      {
+        "type": "click",
+        "element": {
+          "tagName": "BUTTON",
+          "id": "pricing-toggle-annual",
+          "className": "toggle-switch",
+          "innerText": "",
+          "href": null,
+          "dataId": "pricing-annual-toggle",
+          "ariaLabel": "Switch to annual pricing",
+          "role": "switch",
+          "tabIndex": 0
+        },
+        "timestamp": "2024-12-15T10:38:20.000Z",
+        "path": "/pricing",
+        "coordinates": {
+          "x": 800,
+          "y": 200
+        }
+      },
+      {
+        "type": "click",
+        "element": {
+          "tagName": "BUTTON",
+          "id": "select-plan-pro",
+          "className": "btn btn-primary plan-select",
+          "innerText": "Select Pro Plan",
+          "href": null,
+          "dataId": "plan-pro-select",
+          "ariaLabel": "Select Pro pricing plan",
+          "role": "button",
+          "tabIndex": 0
+        },
+        "timestamp": "2024-12-15T10:40:10.000Z",
+        "path": "/pricing",
+        "coordinates": {
+          "x": 960,
+          "y": 650
+        }
+      },
+      {
+        "type": "click",
+        "element": {
+          "tagName": "INPUT",
+          "id": "email-input",
+          "className": "form-control",
+          "innerText": "",
+          "href": null,
+          "dataId": "signup-email",
+          "ariaLabel": "Email address",
+          "role": "textbox",
+          "tabIndex": 0
+        },
+        "timestamp": "2024-12-15T10:43:00.000Z",
+        "path": "/signup",
+        "coordinates": {
+          "x": 500,
+          "y": 300
+        }
+      },
+      {
+        "type": "click",
+        "element": {
+          "tagName": "BUTTON",
+          "id": "submit-signup",
+          "className": "btn btn-success btn-lg",
+          "innerText": "Create Account",
+          "href": null,
+          "dataId": "signup-submit",
+          "ariaLabel": "Submit signup form",
+          "role": "button",
+          "tabIndex": 0
+        },
+        "timestamp": "2024-12-15T10:49:30.000Z",
+        "path": "/signup",
+        "coordinates": {
+          "x": 960,
+          "y": 750
+        }
+      },
+      {
+        "type": "click",
+        "element": {
+          "tagName": "DIV",
+          "id": "analytics-card-1",
+          "className": "dashboard-card clickable",
+          "innerText": "Session Analytics",
+          "href": null,
+          "dataId": "card-sessions",
+          "ariaLabel": "View session analytics",
+          "role": "button",
+          "tabIndex": 0
+        },
+        "timestamp": "2024-12-15T10:51:20.000Z",
+        "path": "/dashboard",
+        "coordinates": {
+          "x": 400,
+          "y": 300
+        }
+      },
+      {
+        "type": "click",
+        "element": {
+          "tagName": "A",
+          "id": "nav-analytics",
+          "className": "sidebar-link active",
+          "innerText": "Analytics",
+          "href": "/dashboard/analytics",
+          "dataId": "nav-analytics-link",
+          "ariaLabel": "Navigate to analytics",
+          "role": "link",
+          "tabIndex": 0
+        },
+        "timestamp": "2024-12-15T11:00:05.000Z",
+        "path": "/dashboard",
+        "coordinates": {
+          "x": 100,
+          "y": 250
+        }
+      },
+      {
+        "type": "click",
+        "element": {
+          "tagName": "BUTTON",
+          "id": "date-range-picker",
+          "className": "btn btn-outline-secondary",
+          "innerText": "Last 7 days",
+          "href": null,
+          "dataId": "date-picker-btn",
+          "ariaLabel": "Select date range",
+          "role": "button",
+          "tabIndex": 0
+        },
+        "timestamp": "2024-12-15T11:01:00.000Z",
+        "path": "/dashboard/analytics",
+        "coordinates": {
+          "x": 1200,
+          "y": 100
+        }
+      },
+      {
+        "type": "click",
+        "element": {
+          "tagName": "BUTTON",
+          "id": "export-data",
+          "className": "btn btn-primary",
+          "innerText": "Export CSV",
+          "href": null,
+          "dataId": "export-btn",
+          "ariaLabel": "Export analytics data",
+          "role": "button",
+          "tabIndex": 0
+        },
+        "timestamp": "2024-12-15T11:05:30.000Z",
+        "path": "/dashboard/analytics",
+        "coordinates": {
+          "x": 1500,
+          "y": 100
+        }
+      },
+      {
+        "type": "click",
+        "element": {
+          "tagName": "A",
+          "id": "nav-settings",
+          "className": "sidebar-link",
+          "innerText": "Settings",
+          "href": "/dashboard/settings",
+          "dataId": "nav-settings-link",
+          "ariaLabel": "Navigate to settings",
+          "role": "link",
+          "tabIndex": 0
+        },
+        "timestamp": "2024-12-15T11:07:35.000Z",
+        "path": "/dashboard/analytics",
+        "coordinates": {
+          "x": 100,
+          "y": 350
+        }
+      },
+      {
+        "type": "click",
+        "element": {
+          "tagName": "INPUT",
+          "id": "notification-toggle",
+          "className": "toggle-switch-input",
+          "innerText": "",
+          "href": null,
+          "dataId": "notifications-toggle",
+          "ariaLabel": "Enable email notifications",
+          "role": "switch",
+          "tabIndex": 0
+        },
+        "timestamp": "2024-12-15T11:09:15.000Z",
+        "path": "/dashboard/settings",
+        "coordinates": {
+          "x": 800,
+          "y": 400
+        }
+      }
+    ],
+    
+    "scrollEvents": [
+      {
+        "type": "scroll",
+        "scrollDirection": "down",
+        "scrollPosition": 250,
+        "scrollPercentage": 12,
+        "scrollTop": 250,
+        "scrollHeight": 2100,
+        "clientHeight": 1080,
+        "timestamp": "2024-12-15T10:30:45.000Z",
+        "path": "/home"
+      },
+      {
+        "type": "scroll",
+        "scrollDirection": "down",
+        "scrollPosition": 500,
+        "scrollPercentage": 24,
+        "scrollTop": 500,
+        "scrollHeight": 2100,
+        "clientHeight": 1080,
+        "timestamp": "2024-12-15T10:31:15.000Z",
+        "path": "/home"
+      },
+      {
+        "type": "scroll",
+        "scrollDirection": "down",
+        "scrollPosition": 1000,
+        "scrollPercentage": 48,
+        "scrollTop": 1000,
+        "scrollHeight": 2100,
+        "clientHeight": 1080,
+        "timestamp": "2024-12-15T10:31:45.000Z",
+        "path": "/home"
+      },
+      {
+        "type": "scroll",
+        "scrollDirection": "down",
+        "scrollPosition": 1500,
+        "scrollPercentage": 71,
+        "scrollTop": 1500,
+        "scrollHeight": 2100,
+        "clientHeight": 1080,
+        "timestamp": "2024-12-15T10:32:10.000Z",
+        "path": "/home"
+      },
+      {
+        "type": "scroll",
+        "scrollDirection": "up",
+        "scrollPosition": 1200,
+        "scrollPercentage": 57,
+        "scrollTop": 1200,
+        "scrollHeight": 2100,
+        "clientHeight": 1080,
+        "timestamp": "2024-12-15T10:32:20.000Z",
+        "path": "/home"
+      },
+      {
+        "type": "scroll",
+        "scrollDirection": "down",
+        "scrollPosition": 800,
+        "scrollPercentage": 38,
+        "scrollTop": 800,
+        "scrollHeight": 3200,
+        "clientHeight": 1080,
+        "timestamp": "2024-12-15T10:34:00.000Z",
+        "path": "/features"
+      },
+      {
+        "type": "scroll",
+        "scrollDirection": "down",
+        "scrollPosition": 1500,
+        "scrollPercentage": 47,
+        "scrollTop": 1500,
+        "scrollHeight": 3200,
+        "clientHeight": 1080,
+        "timestamp": "2024-12-15T10:35:00.000Z",
+        "path": "/features"
+      },
+      {
+        "type": "scroll",
+        "scrollDirection": "down",
+        "scrollPosition": 2200,
+        "scrollPercentage": 69,
+        "scrollTop": 2200,
+        "scrollHeight": 3200,
+        "clientHeight": 1080,
+        "timestamp": "2024-12-15T10:36:00.000Z",
+        "path": "/features"
+      },
+      {
+        "type": "scroll",
+        "scrollDirection": "down",
+        "scrollPosition": 500,
+        "scrollPercentage": 25,
+        "scrollTop": 500,
+        "scrollHeight": 2000,
+        "clientHeight": 1080,
+        "timestamp": "2024-12-15T10:38:00.000Z",
+        "path": "/pricing"
+      },
+      {
+        "type": "scroll",
+        "scrollDirection": "down",
+        "scrollPosition": 1000,
+        "scrollPercentage": 50,
+        "scrollTop": 1000,
+        "scrollHeight": 2000,
+        "clientHeight": 1080,
+        "timestamp": "2024-12-15T10:39:00.000Z",
+        "path": "/pricing"
+      },
+      {
+        "type": "scroll",
+        "scrollDirection": "down",
+        "scrollPosition": 300,
+        "scrollPercentage": 15,
+        "scrollTop": 300,
+        "scrollHeight": 2000,
+        "clientHeight": 1080,
+        "timestamp": "2024-12-15T11:02:00.000Z",
+        "path": "/dashboard/analytics"
+      },
+      {
+        "type": "scroll",
+        "scrollDirection": "down",
+        "scrollPosition": 600,
+        "scrollPercentage": 30,
+        "scrollTop": 600,
+        "scrollHeight": 2000,
+        "clientHeight": 1080,
+        "timestamp": "2024-12-15T11:03:00.000Z",
+        "path": "/dashboard/analytics"
+      }
+    ],
+    
+    "formInteractions": [
+      {
+        "type": "input",
+        "formId": "signup-form",
+        "fieldName": "email",
+        "fieldId": "email-input",
+        "fieldType": "email",
+        "fieldValue": "user@example.com",
+        "fieldPlaceholder": "Enter your email",
+        "isRequired": true,
+        "timestamp": "2024-12-15T10:43:00.000Z",
+        "path": "/signup"
+      },
+      {
+        "type": "input",
+        "formId": "signup-form",
+        "fieldName": "password",
+        "fieldId": "password-input",
+        "fieldType": "password",
+        "fieldValue": "••••••••",
+        "fieldPlaceholder": "Create a password",
+        "isRequired": true,
+        "timestamp": "2024-12-15T10:44:15.000Z",
+        "path": "/signup"
+      },
+      {
+        "type": "input",
+        "formId": "signup-form",
+        "fieldName": "fullName",
+        "fieldId": "fullname-input",
+        "fieldType": "text",
+        "fieldValue": "John Doe",
+        "fieldPlaceholder": "Full name",
+        "isRequired": true,
+        "timestamp": "2024-12-15T10:45:30.000Z",
+        "path": "/signup"
+      },
+      {
+        "type": "input",
+        "formId": "signup-form",
+        "fieldName": "company",
+        "fieldId": "company-input",
+        "fieldType": "text",
+        "fieldValue": "Acme Corp",
+        "fieldPlaceholder": "Company name (optional)",
+        "isRequired": false,
+        "timestamp": "2024-12-15T10:46:45.000Z",
+        "path": "/signup"
+      },
+      {
+        "type": "checkbox",
+        "formId": "signup-form",
+        "fieldName": "terms",
+        "fieldId": "terms-checkbox",
+        "fieldType": "checkbox",
+        "fieldValue": "true",
+        "fieldPlaceholder": null,
+        "isRequired": true,
+        "timestamp": "2024-12-15T10:47:30.000Z",
+        "path": "/signup"
+      },
+      {
+        "type": "input",
+        "formId": "settings-form",
+        "fieldName": "timezone",
+        "fieldId": "timezone-select",
+        "fieldType": "select",
+        "fieldValue": "America/Los_Angeles",
+        "fieldPlaceholder": "Select timezone",
+        "isRequired": false,
+        "timestamp": "2024-12-15T11:08:30.000Z",
+        "path": "/dashboard/settings"
+      }
+    ],
+    
+    "formSubmissions": [
+      {
+        "type": "submit",
+        "formId": "signup-form",
+        "formAction": "/api/auth/signup",
+        "formMethod": "POST",
+        "fieldCount": 5,
+        "submissionData": {
+          "email": "user@example.com",
+          "password": "securePassword123",
+          "fullName": "John Doe",
+          "company": "Acme Corp",
+          "terms": true
+        },
+        "fieldValues": {
+          "email": "user@example.com",
+          "fullName": "John Doe",
+          "company": "Acme Corp"
+        },
+        "isSuccessful": true,
+        "responseStatus": 200,
+        "timestamp": "2024-12-15T10:49:30.000Z",
+        "path": "/signup"
+      },
+      {
+        "type": "submit",
+        "formId": "settings-form",
+        "formAction": "/api/user/settings",
+        "formMethod": "PUT",
+        "fieldCount": 3,
+        "submissionData": {
+          "timezone": "America/Los_Angeles",
+          "notifications": true,
+          "theme": "dark"
+        },
+        "fieldValues": {
+          "timezone": "America/Los_Angeles",
+          "notifications": true
+        },
+        "isSuccessful": true,
+        "responseStatus": 200,
+        "timestamp": "2024-12-15T11:10:00.000Z",
+        "path": "/dashboard/settings"
+      }
+    ],
+    
+    "fieldChanges": [
+      {
+        "type": "change",
+        "formId": "signup-form",
+        "fieldName": "email",
+        "fieldId": "email-input",
+        "fieldType": "email",
+        "oldValue": "",
+        "newValue": "user@example.com",
+        "fieldValue": "user@example.com",
+        "fieldPlaceholder": "Enter your email",
+        "isRequired": true,
+        "previousValue": "",
+        "valueLength": 16,
+        "changeType": "input",
+        "timestamp": "2024-12-15T10:43:15.000Z",
+        "path": "/signup"
+      },
+      {
+        "type": "change",
+        "formId": "signup-form",
+        "fieldName": "password",
+        "fieldId": "password-input",
+        "fieldType": "password",
+        "oldValue": "",
+        "newValue": "securePassword123",
+        "fieldValue": "securePassword123",
+        "fieldPlaceholder": "Create a password",
+        "isRequired": true,
+        "previousValue": "",
+        "valueLength": 17,
+        "changeType": "input",
+        "timestamp": "2024-12-15T10:44:20.000Z",
+        "path": "/signup"
+      },
+      {
+        "type": "change",
+        "formId": "signup-form",
+        "fieldName": "fullName",
+        "fieldId": "fullname-input",
+        "fieldType": "text",
+        "oldValue": "",
+        "newValue": "John",
+        "fieldValue": "John",
+        "fieldPlaceholder": "Full name",
+        "isRequired": true,
+        "previousValue": "",
+        "valueLength": 4,
+        "changeType": "input",
+        "timestamp": "2024-12-15T10:45:30.000Z",
+        "path": "/signup"
+      },
+      {
+        "type": "change",
+        "formId": "signup-form",
+        "fieldName": "fullName",
+        "fieldId": "fullname-input",
+        "fieldType": "text",
+        "oldValue": "John",
+        "newValue": "John Doe",
+        "fieldValue": "John Doe",
+        "fieldPlaceholder": "Full name",
+        "isRequired": true,
+        "previousValue": "John",
+        "valueLength": 8,
+        "changeType": "input",
+        "timestamp": "2024-12-15T10:45:45.000Z",
+        "path": "/signup"
+      },
+      {
+        "type": "change",
+        "formId": "signup-form",
+        "fieldName": "company",
+        "fieldId": "company-input",
+        "fieldType": "text",
+        "oldValue": "",
+        "newValue": "Acme Corp",
+        "fieldValue": "Acme Corp",
+        "fieldPlaceholder": "Company name (optional)",
+        "isRequired": false,
+        "previousValue": "",
+        "valueLength": 9,
+        "changeType": "input",
+        "timestamp": "2024-12-15T10:46:50.000Z",
+        "path": "/signup"
+      }
+    ],
+    
+    "validationErrors": [
+      {
+        "type": "validation",
+        "formId": "signup-form",
+        "fieldName": "email",
+        "fieldId": "email-input",
+        "errorMessage": "Please enter a valid email address",
+        "validationMessage": "Invalid email format",
+        "errorType": "format",
+        "fieldValue": "user@",
+        "timestamp": "2024-12-15T10:43:05.000Z",
+        "path": "/signup"
+      },
+      {
+        "type": "validation",
+        "formId": "signup-form",
+        "fieldName": "password",
+        "fieldId": "password-input",
+        "errorMessage": "Password must be at least 8 characters",
+        "validationMessage": "Password too short",
+        "errorType": "length",
+        "fieldValue": "pass",
+        "timestamp": "2024-12-15T10:44:10.000Z",
+        "path": "/signup"
+      }
+    ],
+    
+    "focusEvents": [
+      {
+        "type": "focus",
+        "elementType": "input",
+        "elementId": "email-input",
+        "elementClass": "form-control",
+        "fieldType": "email",
+        "fieldName": "email",
+        "fieldId": "email-input",
+        "formId": "signup-form",
+        "timestamp": "2024-12-15T10:43:00.000Z",
+        "path": "/signup"
+      },
+      {
+        "type": "blur",
+        "elementType": "input",
+        "elementId": "email-input",
+        "elementClass": "form-control",
+        "fieldType": "email",
+        "fieldName": "email",
+        "fieldId": "email-input",
+        "formId": "signup-form",
+        "timestamp": "2024-12-15T10:43:25.000Z",
+        "path": "/signup"
+      },
+      {
+        "type": "focus",
+        "elementType": "input",
+        "elementId": "password-input",
+        "elementClass": "form-control",
+        "fieldType": "password",
+        "fieldName": "password",
+        "fieldId": "password-input",
+        "formId": "signup-form",
+        "timestamp": "2024-12-15T10:44:15.000Z",
+        "path": "/signup"
+      },
+      {
+        "type": "focus",
+        "elementType": "input",
+        "elementId": "fullname-input",
+        "elementClass": "form-control",
+        "fieldType": "text",
+        "fieldName": "fullName",
+        "fieldId": "fullname-input",
+        "formId": "signup-form",
+        "timestamp": "2024-12-15T10:45:30.000Z",
+        "path": "/signup"
+      },
+      {
+        "type": "focus",
+        "elementType": "select",
+        "elementId": "timezone-select",
+        "elementClass": "form-select",
+        "fieldType": "select",
+        "fieldName": "timezone",
+        "fieldId": "timezone-select",
+        "formId": "settings-form",
+        "timestamp": "2024-12-15T11:08:30.000Z",
+        "path": "/dashboard/settings"
+      }
+    ],
+    
+    "hoverEvents": [
+      {
+        "type": "hover",
+        "elementType": "button",
+        "elementId": "cta-signup",
+        "elementClass": "btn btn-primary cta-button",
+        "elementTag": "BUTTON",
+        "hoverDuration": 1200,
+        "timestamp": "2024-12-15T10:32:10.000Z",
+        "path": "/home"
+      },
+      {
+        "type": "hover",
+        "elementType": "a",
+        "elementId": "nav-features",
+        "elementClass": "nav-link",
+        "elementTag": "A",
+        "hoverDuration": 800,
+        "timestamp": "2024-12-15T10:32:40.000Z",
+        "path": "/home"
+      },
+      {
+        "type": "hover",
+        "elementType": "div",
+        "elementId": "pricing-card-pro",
+        "elementClass": "pricing-card featured",
+        "elementTag": "DIV",
+        "hoverDuration": 2500,
+        "timestamp": "2024-12-15T10:39:30.000Z",
+        "path": "/pricing"
+      },
+      {
+        "type": "hover",
+        "elementType": "button",
+        "elementId": "select-plan-pro",
+        "elementClass": "btn btn-primary plan-select",
+        "elementTag": "BUTTON",
+        "hoverDuration": 1500,
+        "timestamp": "2024-12-15T10:40:05.000Z",
+        "path": "/pricing"
+      },
+      {
+        "type": "hover",
+        "elementType": "div",
+        "elementId": "analytics-card-1",
+        "elementClass": "dashboard-card clickable",
+        "elementTag": "DIV",
+        "hoverDuration": 2000,
+        "timestamp": "2024-12-15T10:51:15.000Z",
+        "path": "/dashboard"
+      }
+    ],
+    
+    "mediaInteractions": [
+      {
+        "type": "media",
+        "mediaType": "video",
+        "mediaId": "intro-video",
+        "mediaSrc": "/videos/intro.mp4",
+        "action": "play",
+        "currentTime": 0,
+        "imageWidth": null,
+        "imageHeight": null,
+        "imageAlt": null,
+        "timestamp": "2024-12-15T10:31:00.000Z",
+        "path": "/home"
+      },
+      {
+        "type": "media",
+        "mediaType": "video",
+        "mediaId": "intro-video",
+        "mediaSrc": "/videos/intro.mp4",
+        "action": "pause",
+        "currentTime": 45,
+        "imageWidth": null,
+        "imageHeight": null,
+        "imageAlt": null,
+        "timestamp": "2024-12-15T10:31:45.000Z",
+        "path": "/home"
+      },
+      {
+        "type": "media",
+        "mediaType": "image",
+        "mediaId": "feature-screenshot",
+        "mediaSrc": "/images/features-dashboard.png",
+        "action": "view",
+        "currentTime": null,
+        "imageWidth": 1920,
+        "imageHeight": 1080,
+        "imageAlt": "Dashboard features screenshot",
+        "timestamp": "2024-12-15T10:35:30.000Z",
+        "path": "/features"
+      },
+      {
+        "type": "media",
+        "mediaType": "image",
+        "mediaId": "pricing-comparison",
+        "mediaSrc": "/images/pricing-table.png",
+        "action": "view",
+        "currentTime": null,
+        "imageWidth": 1200,
+        "imageHeight": 800,
+        "imageAlt": "Pricing comparison table",
+        "timestamp": "2024-12-15T10:38:45.000Z",
+        "path": "/pricing"
+      }
+    ],
+    
+    "keyboardEvents": [
+      {
+        "type": "keydown",
+        "key": "Tab",
+        "keyCode": 9,
+        "ctrlKey": false,
+        "altKey": false,
+        "shiftKey": false,
+        "metaKey": false,
+        "target": {
+          "tagName": "INPUT",
+          "id": "email-input",
+          "className": "form-control"
+        },
+        "timestamp": "2024-12-15T10:43:20.000Z",
+        "path": "/signup"
+      },
+      {
+        "type": "keydown",
+        "key": "Enter",
+        "keyCode": 13,
+        "ctrlKey": false,
+        "altKey": false,
+        "shiftKey": false,
+        "metaKey": false,
+        "target": {
+          "tagName": "BUTTON",
+          "id": "submit-signup",
+          "className": "btn btn-success btn-lg"
+        },
+        "timestamp": "2024-12-15T10:49:30.000Z",
+        "path": "/signup"
+      },
+      {
+        "type": "keydown",
+        "key": "Escape",
+        "keyCode": 27,
+        "ctrlKey": false,
+        "altKey": false,
+        "shiftKey": false,
+        "metaKey": false,
+        "target": {
+          "tagName": "DIV",
+          "id": "modal-overlay",
+          "className": "modal"
+        },
+        "timestamp": "2024-12-15T11:04:00.000Z",
+        "path": "/dashboard/analytics"
+      },
+      {
+        "type": "keydown",
+        "key": "Control",
+        "keyCode": 17,
+        "ctrlKey": true,
+        "altKey": false,
+        "shiftKey": false,
+        "metaKey": false,
+        "target": {
+          "tagName": "BODY",
+          "id": null,
+          "className": null
+        },
+        "timestamp": "2024-12-15T11:05:25.000Z",
+        "path": "/dashboard/analytics"
+      },
+      {
+        "type": "keydown",
+        "key": "s",
+        "keyCode": 83,
+        "ctrlKey": true,
+        "altKey": false,
+        "shiftKey": false,
+        "metaKey": false,
+        "target": {
+          "tagName": "BODY",
+          "id": null,
+          "className": null
+        },
+        "timestamp": "2024-12-15T11:05:26.000Z",
+        "path": "/dashboard/analytics"
+      }
+    ],
+    
+    "copyPasteEvents": [
+      {
+        "type": "copy",
+        "selectedText": "Get Started Free",
+        "target": {
+          "tagName": "BUTTON",
+          "id": "cta-signup"
+        },
+        "timestamp": "2024-12-15T10:32:18.000Z",
+        "path": "/home"
+      },
+      {
+        "type": "paste",
+        "selectedText": null,
+        "target": {
+          "tagName": "INPUT",
+          "id": "email-input"
+        },
+        "timestamp": "2024-12-15T10:43:10.000Z",
+        "path": "/signup"
+      },
+      {
+        "type": "copy",
+        "selectedText": "user@example.com",
+        "target": {
+          "tagName": "INPUT",
+          "id": "email-input"
+        },
+        "timestamp": "2024-12-15T10:43:22.000Z",
+        "path": "/signup"
+      }
+    ],
+    
+    "contextMenuEvents": [
+      {
+        "type": "contextmenu",
+        "target": {
+          "tagName": "IMG",
+          "id": "feature-screenshot"
+        },
+        "timestamp": "2024-12-15T10:35:35.000Z",
+        "path": "/features"
+      },
+      {
+        "type": "contextmenu",
+        "target": {
+          "tagName": "A",
+          "id": "nav-analytics"
+        },
+        "timestamp": "2024-12-15T11:00:08.000Z",
+        "path": "/dashboard"
+      }
+    ],
+    
+    "chronological": [
+      {
+        "category": "scrollEvents",
+        "interactionType": "scroll",
+        "data": {
+          "type": "scroll",
+          "scrollDirection": "down",
+          "scrollPosition": 250,
+          "scrollPercentage": 12,
+          "timestamp": "2024-12-15T10:30:45.000Z",
+          "path": "/home"
+        },
+        "timestamp": "2024-12-15T10:30:45.000Z",
+        "path": "/home",
+        "order": 0
+      },
+      {
+        "category": "mediaInteractions",
+        "interactionType": "media",
+        "data": {
+          "type": "media",
+          "mediaType": "video",
+          "action": "play",
+          "timestamp": "2024-12-15T10:31:00.000Z",
+          "path": "/home"
+        },
+        "timestamp": "2024-12-15T10:31:00.000Z",
+        "path": "/home",
+        "order": 1
+      },
+      {
+        "category": "scrollEvents",
+        "interactionType": "scroll",
+        "data": {
+          "type": "scroll",
+          "scrollDirection": "down",
+          "scrollPosition": 500,
+          "scrollPercentage": 24,
+          "timestamp": "2024-12-15T10:31:15.000Z",
+          "path": "/home"
+        },
+        "timestamp": "2024-12-15T10:31:15.000Z",
+        "path": "/home",
+        "order": 2
+      },
+      {
+        "category": "scrollEvents",
+        "interactionType": "scroll",
+        "data": {
+          "type": "scroll",
+          "scrollDirection": "down",
+          "scrollPosition": 1000,
+          "scrollPercentage": 48,
+          "timestamp": "2024-12-15T10:31:45.000Z",
+          "path": "/home"
+        },
+        "timestamp": "2024-12-15T10:31:45.000Z",
+        "path": "/home",
+        "order": 3
+      },
+      {
+        "category": "mediaInteractions",
+        "interactionType": "media",
+        "data": {
+          "type": "media",
+          "mediaType": "video",
+          "action": "pause",
+          "currentTime": 45,
+          "timestamp": "2024-12-15T10:31:45.000Z",
+          "path": "/home"
+        },
+        "timestamp": "2024-12-15T10:31:45.000Z",
+        "path": "/home",
+        "order": 4
+      },
+      {
+        "category": "scrollEvents",
+        "interactionType": "scroll",
+        "data": {
+          "type": "scroll",
+          "scrollDirection": "down",
+          "scrollPosition": 1500,
+          "scrollPercentage": 71,
+          "timestamp": "2024-12-15T10:32:10.000Z",
+          "path": "/home"
+        },
+        "timestamp": "2024-12-15T10:32:10.000Z",
+        "path": "/home",
+        "order": 5
+      },
+      {
+        "category": "hoverEvents",
+        "interactionType": "hover",
+        "data": {
+          "type": "hover",
+          "elementType": "button",
+          "elementId": "cta-signup",
+          "hoverDuration": 1200,
+          "timestamp": "2024-12-15T10:32:10.000Z",
+          "path": "/home"
+        },
+        "timestamp": "2024-12-15T10:32:10.000Z",
+        "path": "/home",
+        "order": 6
+      },
+      {
+        "category": "clicks",
+        "interactionType": "click",
+        "data": {
+          "type": "click",
+          "element": {
+            "tagName": "BUTTON",
+            "id": "cta-signup",
+            "innerText": "Get Started Free"
+          },
+          "timestamp": "2024-12-15T10:32:15.000Z",
+          "path": "/home"
+        },
+        "timestamp": "2024-12-15T10:32:15.000Z",
+        "path": "/home",
+        "order": 7
+      },
+      {
+        "category": "copyPasteEvents",
+        "interactionType": "copy",
+        "data": {
+          "type": "copy",
+          "selectedText": "Get Started Free",
+          "timestamp": "2024-12-15T10:32:18.000Z",
+          "path": "/home"
+        },
+        "timestamp": "2024-12-15T10:32:18.000Z",
+        "path": "/home",
+        "order": 8
+      },
+      {
+        "category": "scrollEvents",
+        "interactionType": "scroll",
+        "data": {
+          "type": "scroll",
+          "scrollDirection": "up",
+          "scrollPosition": 1200,
+          "scrollPercentage": 57,
+          "timestamp": "2024-12-15T10:32:20.000Z",
+          "path": "/home"
+        },
+        "timestamp": "2024-12-15T10:32:20.000Z",
+        "path": "/home",
+        "order": 9
+      },
+      {
+        "category": "hoverEvents",
+        "interactionType": "hover",
+        "data": {
+          "type": "hover",
+          "elementType": "a",
+          "elementId": "nav-features",
+          "hoverDuration": 800,
+          "timestamp": "2024-12-15T10:32:40.000Z",
+          "path": "/home"
+        },
+        "timestamp": "2024-12-15T10:32:40.000Z",
+        "path": "/home",
+        "order": 10
+      },
+      {
+        "category": "clicks",
+        "interactionType": "click",
+        "data": {
+          "type": "click",
+          "element": {
+            "tagName": "A",
+            "id": "nav-features",
+            "innerText": "Features"
+          },
+          "timestamp": "2024-12-15T10:32:45.000Z",
+          "path": "/home"
+        },
+        "timestamp": "2024-12-15T10:32:45.000Z",
+        "path": "/home",
+        "order": 11
+      }
+    ]
+  },
+  
+  "created_at": "2024-12-15T10:30:00.000Z",
+  "updated_at": "2024-12-15T11:15:45.000Z"
+}
+

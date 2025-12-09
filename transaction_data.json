@@ -1,0 +1,39 @@
+[
+  {
+    "id": 12345,
+    "contract_id": 10,
+    "team_id": 1,
+    "transaction_time": "2025-01-15T10:35:00Z",
+    "tx_hash": "0xabc123def4567890123456789012345678901234567890123456789012345678",
+    "block_no": 18500000,
+    "to_address": "0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb",
+    "from_address": "0x8ba1f109551bD432803012645Hac136c22C929e",
+    "function_name": "transfer",
+    "value": "1000000000000000000",
+    "decoded_input": {
+      "methodId": "0xa9059cbb",
+      "to": "0xRecipientAddress1234567890123456789012345678",
+      "amount": "1000000000000000000"
+    },
+    "created_at": "2025-01-15T10:35:05Z"
+  },
+  {
+    "id": 12346,
+    "contract_id": 10,
+    "team_id": 1,
+    "transaction_time": "2025-01-15T11:20:00Z",
+    "tx_hash": "0xdef789abc1234567890123456789012345678901234567890123456789012345",
+    "block_no": 18500015,
+    "to_address": "0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb",
+    "from_address": "0x9cb2f1a0987654321098765432109876543210987654",
+    "function_name": "approve",
+    "value": "0",
+    "decoded_input": {
+      "methodId": "0x095ea7b3",
+      "spender": "0xSpenderAddress9876543210987654321098765432",
+      "amount": "5000000000000000000"
+    },
+    "created_at": "2025-01-15T11:20:03Z"
+  }
+]
+
